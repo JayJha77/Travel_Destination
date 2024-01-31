@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desi Traveling</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: aqua;
+            padding: 15px;
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        .nav {
+            display: inline;
+            font-size: 20px;
+            padding: 16px;
+            margin: 10px;
+            font-weight: 600;
+            
+        }
+        a{
+            text-decoration: none;
+        }
+
+
+        .main_image {
+            width: 100%;
+            height: 600px;
+        }
+        #main_table{
+            width: 100%;
+            height: 100px;
+        }
+
+        .gallry {
+            height: 250px;
+        }
+
+        table {
+            margin: 20px auto;
+            width: 90%;
+            max-width: 800px;
+        }
+        p{
+               position: relative;
+               bottom: 20px;
+            }
+
+        .caption {
+            background-color: rgb(4, 255, 0);
+            padding: 4px;
+            text-align: center;
+            height: 50px;
+            width: 100%;
+            
+            
+        }
+       
+
+        .gallry_image {
+            padding: 20px;
+            text-align: center;
+        }
+
+        @media (max-width: 700px) {
+            .nav {
+                display:inline;
+                font-size: 14px;
+                font-weight: 600;
+                margin:1px;
+            
+            }
+            #main_table{
+                display: block;
+            }
+            .gallry{
+                width: 100%;
+                
+            }
+            
+
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li class="nav"><a href="index.html">TRIPS</a></li>
+                <li class="nav"><a href="about.html">ABOUT</a></li>
+                <li class="nav"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main">
+            <img class="main_image" src="https://www.newdelhiairport.in/media/2160/top-travel-destinations-to-visit-before-turning-40.jpg" alt="">
+            <h2 style="text-align: center; padding-top: 15px; padding-bottom: 15px;">My Travel Diary</h2>
+        </div>
+
+        <table id="main_table">
+            <tr>
+                <td>
+                    <div class="gallry_image">
+                        <a href="1st_image.html"><img class="gallry" src="https://hblimg.mmtcdn.com/content/hubble/img/shimla/mmt/destination/m_landscape_l_400_640.jpg" alt=""></a></br>
+                        <p class="caption">Shimla, India.</p>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="gallry_image">
+                        <a href="2nd_image.html"><img class="gallry" src="https://hblimg.mmtcdn.com/content/hubble/img/lakshadweep/mmt/destination/m_Lakshadweep_l_580_870.jpg" alt=""></a></br>
+                        <p class="caption">Lorem, ipsum.</p>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="gallry_image">
+                        <a href="3rd_image.html"><img class="gallry" src="https://hblimg.mmtcdn.com/content/hubble/img/new_dest_imagemar/mmt/activities/m_Udaipur_4_l_800_1200.jpg" alt=""></a></br>
+                        <p class="caption">Lorem, ipsum.</p>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="gallry_image">
+                        <a href="4th_image.html"><img class="gallry" src="https://hblimg.mmtcdn.com/content/hubble/img/DestMainImgLscape/mmt/activities/m_Jaipur_1_l_787_1181.jpg" alt=""></a></br>
+                        <p class="caption">Lorem, ipsum.</p>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="gallry_image">
+                       <a href="5th_image.html"><img class="gallry" src="https://www.holidify.com/images/bgImages/MANALI.jpg" alt=""></br></a>
+                        <p class="caption">Lorem, ipsum.</p>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="gallry_image">
+                        <a href="6th_image.html"><img class="gallry" src="https://www.holidify.com/images/bgImages/INDIA.jpg" alt=""></br></a>
+                        <p class="caption">Lorem, ipsum.</p>
+                    </div>
+                </td>
+            </tr>
+
+            
+        </table>
+
+
+    </main>
+
+</body>
+
+</html>
